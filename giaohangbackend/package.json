@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "agora-access-token": "^2.0.4",
     "bcrypt": "^5.1.1",
