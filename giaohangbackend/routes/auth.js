@@ -1,5 +1,5 @@
 import express from 'express';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import cors from 'cors';
 import pool from '../index.js';
 import { sendOTP} from '../utils/emailService.js';
